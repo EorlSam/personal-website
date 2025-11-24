@@ -2,11 +2,11 @@
   "hero": {
     "name": "Samuel Fernandez Toledo",
     "shortName": "Samuel Fernandez",
-    "title": "Digital Alchemist & Engineer",
+    "title": "Engineer & Digital Alchemist",
     "intro": "Weaving the esoteric into the digital. Exploring the intersection of technology, spirituality, and the human psyche."
   },
   "about": {
-    "bio": "Born in the winter of 2005, I am a seeker of hidden truths and a builder of digital realms. Currently pursuing 'Ingenieria Informatica' at the University of Malaga, I blend the rigorous logic of code with the intuitive depths of the spirit.",
+    "bio": "Born in the winter of 2005, I am a seeker of hidden truths and a builder of digital realms. Currently pursuing Computer Engineering at the University of Malaga, I blend the rigorous logic of code with the intuitive depths of the spirit.",
     "birthDate": "2005-12-31",
     "location": "Malaga, Spain"
   },
@@ -15,7 +15,7 @@
       "category": "Technology",
       "items": [
         "Software Engineering",
-        "Web Development",
+        "Machine Learning",
         "System Architecture"
       ]
     },

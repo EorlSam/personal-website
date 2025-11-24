@@ -5,7 +5,7 @@ import About from './components/About';
 import Interests from './components/Interests';
 import Contact from './components/Contact';
 import CustomCursor from './components/CustomCursor';
-import mysticSymbol from './assets/mystic-symbol.png';
+import enochianSigil from './assets/enochian-sigil-of-protection.png';
 import './App.css';
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
 
       {/* Rotating Mystic Symbol Background */}
       <motion.img
-        src={mysticSymbol}
+        src={enochianSigil}
         alt=""
         style={{
           position: 'fixed',

@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "name": "Samuel Fernandez Toledo",
+    "shortName": "Samuel Fernandez",
+    "title": "Digital Alchemist & Engineer",
+    "intro": "Weaving the esoteric into the digital. Exploring the intersection of technology, spirituality, and the human psyche."
+  },
+  "about": {
+    "bio": "Born in the winter of 2005, I am a seeker of hidden truths and a builder of digital realms. Currently pursuing 'Ingenieria Informatica' at the University of Malaga, I blend the rigorous logic of code with the intuitive depths of the spirit.",
+    "birthDate": "2005-12-31",
+    "location": "Malaga, Spain"
+  },
+  "interests": [
+    {
+      "category": "Technology",
+      "items": [
+        "Software Engineering",
+        "Web Development",
+        "System Architecture"
+      ]
+    },
+    {
+      "category": "Spirituality",
+      "items": [
+        "Christian Mysticism",
+        "Esoteric Philosophy",
+        "Theology"
+      ]
+    },
+    {
+      "category": "Psychology",
+      "items": [
+        "Jungian Psychology",
+        "Human Consciousness",
+        "Archetypes"
+      ]
+    }
+  ],
+  "contact": {
+    "email": "fernandeztoledosamuel@gmail.com",
+    "github": "https://github.com/EorlSam",
+    "linkedin": "https://linkedin.com/in/fernandezsamuel"
+  }
+}

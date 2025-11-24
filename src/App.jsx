@@ -1,18 +1,18 @@
+import { useRef } from 'react';
+import { motion, useScroll, useVelocity, useSpring, useMotionValue, useAnimationFrame } from 'framer-motion';
 import Hero from './components/Hero';
 import About from './components/About';
 import Interests from './components/Interests';
 import Contact from './components/Contact';
-import { motion, useScroll, useVelocity, useSpring, useTransform, useMotionValue, useAnimationFrame } from 'framer-motion';
-import { useRef } from 'react';
-
+import CustomCursor from './components/CustomCursor';
 import mysticSymbol from './assets/mystic-symbol.png';
+import './App.css';
 
 function App() {
   const { scrollY } = useScroll();
   const scrollVelocity = useVelocity(scrollY);
   const smoothVelocity = useSpring(scrollVelocity, { damping: 50, stiffness: 400 });
 
-  const baseVelocity = useMotionValue(0);
   const rotation = useMotionValue(0);
 
   useAnimationFrame((t, delta) => {
@@ -30,7 +30,9 @@ function App() {
   });
 
   return (
-    <main style={{ position: 'relative', overflowX: 'hidden' }}>
+    <div className="app">
+      <CustomCursor />
+
       {/* Rotating Mystic Symbol Background */}
       <motion.img
         src={mysticSymbol}
@@ -50,13 +52,13 @@ function App() {
         }}
       />
 
-      <div style={{ position: 'relative', zIndex: 1 }}>
+      <main style={{ position: 'relative', zIndex: 1 }}>
         <Hero />
         <About />
         <Interests />
         <Contact />
-      </div>
-    </main>
+      </main>
+    </div>
   );
 }
 
